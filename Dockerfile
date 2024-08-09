@@ -29,7 +29,7 @@ COPY --from=builder /app ./
 COPY --from=builder /usr/bin/tini /usr/bin/tini
 
 # port for RPC API
-EXPOSE 5001
+#EXPOSE 5001
 
 # port for HTTP Gateway
 EXPOSE 8080
@@ -43,7 +43,7 @@ ENV FILE_DATASTORE_PATH=/data/ipfs/datastore
 ENV FILE_BLOCKSTORE_PATH=/data/ipfs/blockstore
 
 # enable metrics by default
-ENV METRICS=true
+ENV METRICS=false
 
 # redirect ipfs/ipns paths to subdomains to prevent cookie theft by websites
 # loaded via the gateway
