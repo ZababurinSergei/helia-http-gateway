@@ -164,7 +164,7 @@ import { HOST, HTTP_PORT, RPC_PORT, METRICS, ECHO_HEADERS, FASTIFY_DEBUG } from 
 import { contentTypeParser } from './content-type-parser.js'
 import { getCustomHelia } from './get-custom-helia.js'
 import { httpGateway } from './helia-http-gateway.js'
-import { rpcApi } from './helia-rpc-api.js'
+// import { rpcApi } from './helia-rpc-api.js'
 
 const helia = await getCustomHelia()
 const fetch = await createVerifiedFetch(helia, { contentTypeParser })
