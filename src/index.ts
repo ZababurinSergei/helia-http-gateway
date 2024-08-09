@@ -170,13 +170,17 @@ const helia = await getCustomHelia()
 const fetch = await createVerifiedFetch(helia, { contentTypeParser })
 const log = helia.logger.forComponent('index')
 
-const [rpcApiServer, httpGatewayServer] = await Promise.all([
+/*
   createServer('rpc-api', rpcApi({
     helia,
     fetch
   }), {
     metrics: false
   }),
+
+  const [rpcApiServer, httpGatewayServer] = await Promise.all([
+ */
+const [httpGatewayServer] = await Promise.all([
   createServer('http-gateway', httpGateway({
     helia,
     fetch
@@ -185,17 +189,17 @@ const [rpcApiServer, httpGatewayServer] = await Promise.all([
   })
 ])
 
+// rpcApiServer.listen({ port: RPC_PORT, host: HOST }),
 await Promise.all([
-  rpcApiServer.listen({ port: RPC_PORT, host: HOST }),
   httpGatewayServer.listen({ port: HTTP_PORT, host: HOST })
 ])
 
 console.info(`API server listening on /ip4/${HOST}/tcp/${RPC_PORT}`) // eslint-disable-line no-console
 console.info(`Gateway (readonly) server listening on /ip4/${HOST}/tcp/${HTTP_PORT}`) // eslint-disable-line no-console
 
+// await rpcApiServer.close()
 const stopWebServer = async (): Promise<void> => {
   try {
-    await rpcApiServer.close()
     await httpGatewayServer.close()
   } catch (error) {
     log.error(error)
