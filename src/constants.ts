@@ -8,7 +8,7 @@ export const HTTP_PORT = Number(process.env.PORT ?? 8080)
  */
 export const RPC_PORT = Number(process.env.RPC_PORT ?? 5001)
 
-export const HOST = process.env.HOST ?? '0.0.0.0'
+export const HOST = process.env.HOST ?? '127.0.0.1'
 
 export const DEBUG = process.env.DEBUG ?? ''
 export const FASTIFY_DEBUG = process.env.FASTIFY_DEBUG ?? ''
