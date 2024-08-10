@@ -194,7 +194,7 @@ await Promise.all([
   httpGatewayServer.listen({ port: HTTP_PORT, host: HOST })
 ])
 
-console.info(`API server listening on /ip4/${HOST}/tcp/${RPC_PORT}`) // eslint-disable-line no-console
+// console.info(`API server listening on /ip4/${HOST}/tcp/${RPC_PORT}`) // eslint-disable-line no-console
 console.info(`Gateway (readonly) server listening on /ip4/${HOST}/tcp/${HTTP_PORT}`) // eslint-disable-line no-console
 
 // await rpcApiServer.close()

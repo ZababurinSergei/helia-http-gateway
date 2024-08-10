@@ -1,7 +1,7 @@
 /**
  * Where we listen for gateway requests
  */
-export const HTTP_PORT = Number(process.env.PORT ?? 8080)
+export const HTTP_PORT = Number(process.env.PORT ?? 9483)
 // export const HTTP_PORT = Number(process.env.HTTP_PORT ?? 8080)
 /**
  * Where we listen for RPC API requests
@@ -24,7 +24,7 @@ export const ECHO_HEADERS = process.env.ECHO_HEADERS === 'true'
  *
  * @default 'true'
  */
-export const METRICS = process.env.METRICS ?? 'true'
+export const METRICS = process.env.METRICS ?? 'false'
 
 /**
  * If not set, we will enable bitswap by default.
