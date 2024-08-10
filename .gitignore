@@ -4,6 +4,7 @@ build
 .coverage
 node_modules
 package-lock.json
+_sandbox
 yarn.lock
 .vscode
 datastore

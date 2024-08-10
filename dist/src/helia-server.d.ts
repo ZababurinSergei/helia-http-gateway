@@ -5,5 +5,5 @@ export interface GetRequestAwareSignalOpts {
     timeout?: number;
     url?: string;
 }
-export declare function getRequestAwareSignal(request: FastifyRequest, log: Logger, options?: GetRequestAwareSignalOpts): AbortSignal;
+export declare function getRequestAwareSignal(request: any, log: Logger, options?: GetRequestAwareSignalOpts): any;
 //# sourceMappingURL=helia-server.d.ts.map

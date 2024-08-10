@@ -1,9 +1,5 @@
-import type { VerifiedFetch } from '@helia/verified-fetch';
-import type { RouteOptions } from 'fastify';
-import type { Helia } from 'helia';
-export interface HeliaHTTPGatewayOptions {
-    helia: Helia;
-    fetch: VerifiedFetch;
-}
-export declare function httpGateway(opts: HeliaHTTPGatewayOptions): RouteOptions[];
+export declare const httpGateway: () => void;
+/**
+ * Redirects to the subdomain gateway.
+ */
 //# sourceMappingURL=helia-http-gateway.d.ts.map

@@ -10,7 +10,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66fcea5e-b05c-4f0e-b8dd-d7e971c21899" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/env.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.node.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/content-type-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/dns-link-labels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/get-custom-helia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/get-custom-libp2p.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/healthcheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/helia-http-gateway.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/helia-rpc-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/helia-server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/ipns-address-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tracing.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-http-gateway.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-http-gateway.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-http-gateway.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-http-gateway.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-http-gateway.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-http-gateway.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-http-gateway.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-http-gateway.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-rpc-api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-rpc-api.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-rpc-api.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-rpc-api.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-rpc-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-rpc-api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-rpc-api.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-rpc-api.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-server.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-server.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-server.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-server.d.ts.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/helia-server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-server.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tsconfig.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helia-http-gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helia-http-gateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helia-rpc-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helia-rpc-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helia-server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helia-server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +63,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2kOF01NuOgtm82UGrfaqG41DpJd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,10 +85,58 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.start.executor": "Run",
+    "npm.start:express.executor": "Run",
     "ts.external.directory.path": "/opt/clion/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:express" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:express" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start:express" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723146489535</updated>
       <workItem from="1723146490662" duration="3231000" />
+      <workItem from="1723290964654" duration="5792000" />
     </task>
     <servers />
   </component>
