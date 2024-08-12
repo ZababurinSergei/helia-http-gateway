@@ -79,13 +79,15 @@ export const httpGateway = (opts) => {
     async function convertVerifiedFetchResponseToFastifyReply(url, verifiedFetchResponse, reply, options) {
         if (!verifiedFetchResponse.ok) {
             log('verified-fetch response for %s not ok: ', url, verifiedFetchResponse.status);
-            await reply.code(verifiedFetchResponse.status).send(verifiedFetchResponse.statusText);
+            reply.status(verifiedFetchResponse.status)
+            await reply.send(verifiedFetchResponse.statusText);
             return;
         }
         const contentType = verifiedFetchResponse.headers.get('content-type');
         if (contentType == null) {
             log('verified-fetch response for %s has no content-type', url);
-            await reply.code(200).send(verifiedFetchResponse.body);
+            reply.status(200)
+            await reply.send(verifiedFetchResponse.body);
             return;
         }
         console.info('content type', contentType);
@@ -93,7 +95,8 @@ export const httpGateway = (opts) => {
         if (verifiedFetchResponse.body == null) {
             // this should never happen
             log('verified-fetch response for %s has no body', url);
-            await reply.code(501).send('empty');
+            reply.status(501)
+            await reply.send('empty');
             return;
         }
         const headers = {};
