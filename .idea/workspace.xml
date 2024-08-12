@@ -11,54 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66fcea5e-b05c-4f0e-b8dd-d7e971c21899" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e2e-tests/gc.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/e2e-tests/gc.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e2e-tests/gc.spec.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/e2e-tests/gc.spec.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e2e-tests/smoketest.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/e2e-tests/smoketest.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e2e-tests/smoketest.spec.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/e2e-tests/smoketest.spec.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e2e-tests/version-response.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/e2e-tests/version-response.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e2e-tests/version-response.spec.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/e2e-tests/version-response.spec.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/playwright.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/playwright.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/playwright.config.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/playwright.config.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/constants.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/constants.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/constants.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/constants.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-http-gateway.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-http-gateway.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-http-gateway.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-http-gateway.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-http-gateway.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-http-gateway.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-http-gateway.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-http-gateway.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-rpc-api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-rpc-api.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-rpc-api.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-rpc-api.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-rpc-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-rpc-api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-rpc-api.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-rpc-api.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-server.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-server.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-server.d.ts.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-server.d.ts.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/helia-server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/helia-server.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/src/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tsconfig.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e-tests/gc.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e-tests/gc.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e-tests/smoketest.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e-tests/smoketest.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e-tests/version-response.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e-tests/version-response.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/index.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/index.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/helia-http-gateway.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/helia-http-gateway.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/helia-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/helia-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content-type-parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/content-type-parser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dns-link-labels.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/dns-link-labels.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/get-custom-helia.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/get-custom-helia.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/get-custom-libp2p.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/get-custom-libp2p.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/healthcheck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/healthcheck.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helia-http-gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/helia-http-gateway.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helia-rpc-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/helia-rpc-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helia-server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/helia-server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ipns-address-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/ipns-address-utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/_src_/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +116,7 @@
       <workItem from="1723363698805" duration="1566000" />
       <workItem from="1723365727907" duration="2344000" />
       <workItem from="1723413058002" duration="3936000" />
-      <workItem from="1723444394149" duration="4897000" />
+      <workItem from="1723444394149" duration="5297000" />
     </task>
     <servers />
   </component>
@@ -224,12 +177,6 @@
           <line>71</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node/helia-http-gateway.js</url>
-          <line>111</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

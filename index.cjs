@@ -9,7 +9,7 @@ const express = require('express');
 let app = express();
 
 server.then(async (data) => {
-    const port = Number(process.env.HTTP_PORT ?? 4867)
+    const port = Number(process.env.PORT ?? 4867)
 
     app = await data.modules(app).catch(e => console.error(e));
 
