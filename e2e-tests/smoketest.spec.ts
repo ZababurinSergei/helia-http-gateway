@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { HTTP_PORT } from '../_src_/constants.js'
+import { HTTP_PORT } from '../src/constants.js'
 
 // test all the same pages listed at https://probelab.io/websites/
 const pages = [
