@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { RPC_PORT } from '../src/constants.js'
+import { RPC_PORT } from '../_src_/constants.js'
 
 function validateResponse (content: string): void {
   expect(() => JSON.parse(content)).not.toThrow()

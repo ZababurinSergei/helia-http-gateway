@@ -85,6 +85,7 @@ export function httpGateway (opts: HeliaHTTPGatewayOptions): RouteOptions[] {
    */
   async function fetch (request: FastifyRequest, reply: FastifyReply): Promise<void> {
     const url = getFullUrlFromFastifyRequest(request, log)
+    console.log('------------- url -------------', url)
     log('fetching url "%s" with @helia/verified-fetch', url)
 
     const signal = getRequestAwareSignal(request, log, {
@@ -183,9 +184,12 @@ export function httpGateway (opts: HeliaHTTPGatewayOptions): RouteOptions[] {
     url: '/',
     method: 'GET',
     handler: async (request, reply): Promise<void> => {
+      console.log('ccccccccccc', request)
       if (USE_SUBDOMAINS && request.hostname.split('.').length > 1) {
+        console.log('-------------- 1 ----------------')
         return fetch(request, reply)
       }
+      console.log('-------------- 2 ----------------')
       await reply.code(200).send('try /ipfs/<cid> or /ipns/<name>')
     }
   }]

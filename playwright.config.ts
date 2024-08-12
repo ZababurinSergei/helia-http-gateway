@@ -1,6 +1,6 @@
 import { join } from 'node:path'
 import { defineConfig, devices } from '@playwright/test'
-import { HTTP_PORT } from './src/constants.js'
+import { HTTP_PORT } from './_src_/constants.js'
 
 /**
  * Run one of the variants of `npm run start` by setting the PLAYWRIGHT_START_CMD_MOD environment variable.

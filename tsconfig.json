@@ -8,7 +8,7 @@
       "module": "NodeNext"
     },
     "include": [
-      "src",
+      "_src_",
       "test",
       "e2e-tests",
       "playwright.config.ts"
