@@ -11,6 +11,18 @@
   <component name="ChangeListManager">
     <list default="true" id="66fcea5e-b05c-4f0e-b8dd-d7e971c21899" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/content-type-parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/content-type-parser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/dns-link-labels.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/dns-link-labels.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/get-custom-helia.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/get-custom-helia.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/get-custom-libp2p.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/get-custom-libp2p.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/healthcheck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/healthcheck.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/helia-http-gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helia-http-gateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/helia-rpc-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helia-rpc-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/helia-server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helia-server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/ipns-address-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ipns-address-utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_src_/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +62,8 @@
     "nodejs_interpreter_path": "/home/sergei/.asdf/installs/nodejs/22.5.1/bin/node",
     "nodejs_package_manager_path": "npm",
     "npm.build.executor": "Run",
-    "npm.start.executor": "Debug",
-    "npm.start:express.executor": "Debug",
+    "npm.start.executor": "Run",
+    "npm.start:express.executor": "Run",
     "settings.editor.selected.configurable": "settings.nodejs",
     "ts.external.directory.path": "/opt/clion/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
@@ -117,7 +129,7 @@
       <workItem from="1723363698805" duration="1566000" />
       <workItem from="1723365727907" duration="2344000" />
       <workItem from="1723413058002" duration="3936000" />
-      <workItem from="1723444394149" duration="6219000" />
+      <workItem from="1723444394149" duration="7711000" />
     </task>
     <servers />
   </component>
@@ -128,47 +140,47 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-http-gateway.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-http-gateway.ts</url>
           <line>73</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-http-gateway.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-http-gateway.ts</url>
           <line>107</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-http-gateway.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-http-gateway.ts</url>
           <line>44</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-server.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-server.ts</url>
           <line>5</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-server.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-server.ts</url>
           <line>27</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-http-gateway.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-http-gateway.ts</url>
           <line>176</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-http-gateway.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-http-gateway.ts</url>
           <line>166</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-http-gateway.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-http-gateway.ts</url>
           <line>170</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/_src_/helia-http-gateway.ts</url>
+          <url>file://$PROJECT_DIR$/src/helia-http-gateway.ts</url>
           <line>88</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="54" />
