@@ -63,31 +63,19 @@ export const modules = async (app) => {
     })
 
     app.get(`/:ns/:address`, async (req, res) => {
-        const proxyHost = req.headers["x-forwarded-host"];
-        console.log('----------', req)
-        console.log('----------', req.header('Host'))
-        console.log('----------', req.headers.host)
-        console.log('-- 1 --------', req.host)
-        // res.status(200).sendFile(path.join(__dirname, '/docs/index.html'));
         await routes[0].handler(req, res)
     });
 
     app.get(`/:ns/:address/*`, async (req, res) => {
-        console.log('-- 2 --------', req)
-        console.log('-- 2 --------', req.host)
-        // res.status(200).sendFile(path.join(__dirname, '/docs/index.html'));
         await routes[1].handler(req, res)
     });
 
     app.get(`/`, async (req, res) => {
         await routes[3].handler(req, res)
-
-        // res.status(200).sendFile(path.join(__dirname, '/docs/index.html'));
     });
 
     app.get(`/*`, async (req, res) => {
         await routes[2].handler(req, res)
-        // res.status(200).sendFile(path.join(__dirname, '/docs/index.html'));
     });
 
     app.use(express.static(`${__dirname}/docs`));
